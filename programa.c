@@ -37,7 +37,7 @@ int main() {
 			contador1++;
 		}
 	}
-	printf("Numero de puntos en el primer cuadrante: %d\n", contador1);
+	printf("Puntos en el primer cuadrante: %d\n", contador1);
 	
 	return 0;
 }
