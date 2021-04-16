@@ -1,4 +1,4 @@
-# [Título del trabajo]
+# [Ejercicios clase Q103]
 
 [Descripción breve del proyecto a realizar (2-3 frases).]
 
