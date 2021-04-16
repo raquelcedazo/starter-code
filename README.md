@@ -1,11 +1,11 @@
-# [Ejercicios clase Q103]
+# Ejercicios clase Q103
 
-[Descripción breve del proyecto a realizar (2-3 frases).]
+En este repositorio se van a ir subiendo todos los ejercicios resueltos de clase.
 
 ## Integrantes del equipo
 
-[Nombres, apellidos, y usuario GitHub de los integrantes del equipo.]
+Raquel
 
 ## Objetivos del trabajo
 
-[Lista de los objetivos que se persiguen con el trabajo propuesto.]
+Compartir bla bla
