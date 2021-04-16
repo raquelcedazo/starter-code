@@ -20,7 +20,7 @@ int main() {
 	
 	fscanf(fichero, "%d", &puntos);
 	i=0;
-	// EOF End Of File
+
 	while (i<puntos) {
 		fscanf(fichero, "%d %d", &vector[i].x, &vector[i].y);
 		printf("(%d, %d)\n", vector[i].x, vector[i].y);
