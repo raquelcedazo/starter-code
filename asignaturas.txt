@@ -1,0 +1,4 @@
+Informatica 120 1
+Algebra 110 12
+Fisica 95 32
+Quimica 106 94
