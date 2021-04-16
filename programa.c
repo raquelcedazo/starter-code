@@ -29,7 +29,7 @@ int main() {
 	
 	fclose(fichero);
 	
-	printf("Total de puntos del fichero: %d\n", puntos);
+	printf("Total de puntos: %d\n", puntos);
 	
 	return 0;
 }
