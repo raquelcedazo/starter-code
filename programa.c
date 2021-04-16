@@ -6,6 +6,11 @@ struct punto{
 	int y;
 };
 
+struct recta {
+	struct punto p1;
+	struct punto p2;
+};
+
 int main() {
 	
 	FILE *fichero;
