@@ -1,0 +1,4 @@
+pablo = 5
+jose = 6
+felipe = 9
+antonio = 2
