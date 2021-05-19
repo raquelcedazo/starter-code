@@ -8,12 +8,17 @@ struct estado {
 	float superficie; // km^2
 };
 
+// Función 
+int cargarDatos(struct estado listado[]);
+
 int main() {
 	struct estado listado[N];
 	int i, j, contador, encontrado;
 	float media = 0.0;
-	char letra;
 	
+	contador = cargarDatos(listado);
+	
+	/*
 	printf("Introduce el numero de estados:\n");
 	scanf("%d", &contador);
 	
@@ -36,7 +41,7 @@ int main() {
 		scanf("%f", &listado[i].poblacion);
 		printf("Introduzca la superficie del estado %d:\n", i+1);
 		scanf("%f", &listado[i].superficie);
-	}
+	}*/
 	
 	for (i=0; i<contador; i++) { 
 		media += listado[i].poblacion/listado[i].superficie;
@@ -48,3 +53,22 @@ int main() {
 	return 0;
 	
 }
+
+int cargarDatos(struct estado listado[]) {
+	int contador = 0, i=0;
+	FILE * fentrada;
+	fentrada = fopen("entrada.txt", "r");
+	if (fentrada == NULL){
+		printf("Error abriendo fichero\n");
+		return 0;
+	}
+	while (fscanf(fentrada, "%s %f %f", listado[i].nombre, &listado[i].poblacion, &listado[i].superficie) != EOF) {
+		printf("%s %f %f\n", listado[i].nombre, listado[i].poblacion, listado[i].superficie);
+		i++;
+		contador++;
+	}
+	fclose(fentrada);
+	return contador;
+}
+
+
